@@ -40,9 +40,9 @@ const style = {
 
 function PhoneBookForm(props) {
   const [state, setState] = useState({
-    firstName: "",
-    lastName: "",
-    phone: ""
+    firstName: "Coder",
+    lastName: "Byte",
+    phone: "8885559999"
   });
 
   const [error, setError] = useState("");
